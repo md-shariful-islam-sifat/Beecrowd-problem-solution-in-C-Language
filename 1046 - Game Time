@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int x,y,t,m;
+
+    scanf("%d %d",&x,&y);
+
+    if(x>y)
+    {   
+        m=(24-x);
+        t=m+y;
+        printf("O JOGO DUROU %d HORA(S)\n",t);
+    }
+    else if(y>x)
+    {
+        t=y-x;
+        printf("O JOGO DUROU %d HORA(S)\n",t);
+    }
+    else if(x==y)
+    {
+        t=24-x+y;
+        printf("O JOGO DUROU %d HORA(S)\n",t);
+    }
+    return 0;
+}
