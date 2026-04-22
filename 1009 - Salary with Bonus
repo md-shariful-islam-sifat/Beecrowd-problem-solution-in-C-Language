@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    char ch[]={"\0"};
+
+    scanf("%s",ch);
+    double n1,n2,sum;
+
+    scanf("%lf\n%lf",&n1,&n2);
+
+    sum=n1+(n2*0.15);
+
+    printf("TOTAL = R$ %0.2lf\n",sum);
+
+    return 0;
+}
