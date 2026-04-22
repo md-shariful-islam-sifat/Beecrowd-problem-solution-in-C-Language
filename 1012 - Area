@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{   
+    double A,B,C,T1,C1,T2,Q,R,pi=3.14159;
+    
+    scanf("%lf %lf %lf",&A,&B,&C);
+    
+    T1=(1.0/2)*A*C;
+    C1=pi*(C*C);
+    T2=(1.0/2)*(A+B)*C;
+    Q=B*B;
+    R=A*B;
+    
+    printf("TRIANGULO: %.3lf\n",T1);
+    
+    printf("CIRCULO: %.3lf\n",C1);
+    
+    printf("TRAPEZIO: %.3lf\n",T2);
+    
+    printf("QUADRADO: %.3lf\n",Q);
+    
+    printf("RETANGULO: %.3lf\n",R);
+    
+    return 0;
+}
