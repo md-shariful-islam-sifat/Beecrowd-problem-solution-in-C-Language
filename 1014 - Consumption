@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+
+    float a,b,c;
+
+    scanf("%f",&a);
+    scanf("%f",&c);
+
+    b=a/c;
+
+    printf("%.3f km/l\n",b);
+    return 0;
+}
