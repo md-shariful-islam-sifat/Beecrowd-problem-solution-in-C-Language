@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int j,a = 0;
+    float b,i = 0;
+    while(1)
+    {
+        scanf("%d", &j);
+        if(j < 0)
+        {
+            break;
+        }
+        i = i + j;
+        a++;
+    }
+    b = i/a;
+    printf("%.2f\n", b);
+
+    return 0;
+}
