@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,d;
+    
+    scanf("%f %f",&a,&b);
+    
+    a=a*3.5;
+    b=b*7.5;
+    
+    d=(a+b)/11.0;
+    
+    printf("MEDIA = %.5f\n",d);
+    
+    return 0;
+}
